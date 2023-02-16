@@ -2,6 +2,14 @@
 
 ## How to use
 
+0. npm install package
+
+```
+yarn add evm-web3-hooks
+//or
+npm install evm-web3-hooks
+```
+
 1. Wrap the top level <App/> component by <Web3Provider>
 
 ```
