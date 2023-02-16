@@ -1,6 +1,6 @@
 {
   "name": "evm-web3-hooks",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "description": "EVM Web3 hook",
