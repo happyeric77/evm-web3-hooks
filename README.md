@@ -1,4 +1,4 @@
-# EVM web3 hook
+# [EVM web3 hook](https://www.npmjs.com/package/evm-web3-hooks) npm package
 
 ## How to use
 
