@@ -22,5 +22,4 @@ const useWeb3 = () => {
   return useContext(Web3Context);
 };
 
-export default Web3Context;
-export { useWeb3 };
+export { useWeb3, Web3Context };

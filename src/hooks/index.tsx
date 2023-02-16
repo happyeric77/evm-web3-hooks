@@ -1,13 +1,11 @@
 export * from "./useWeb3";
-
 import detectEthereumProvider from "@metamask/detect-provider";
 import WalletConnectProvider from "@walletconnect/web3-provider";
-import { FC, useEffect, useState } from "react";
+import React, { FC, useEffect, useState } from "react";
 import Web3 from "web3";
 import { AbstractProvider } from "web3-core";
 import { JsonRpcPayload, JsonRpcResponse } from "web3-core-helpers";
-import Web3Context, { IWeb3Data } from "./useWeb3";
-import React from "react";
+import { IWeb3Data, Web3Context } from "./useWeb3";
 
 // METAMASK PROVIDER TYPE WORKAROUND (NO REQUEST TYPE) https://github.com/MetaMask/detect-provider/issues/68
 interface MetaMaskEthereumProvider {
