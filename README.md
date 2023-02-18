@@ -1,5 +1,10 @@
 # [EVM web3 hook](https://www.npmjs.com/package/evm-web3-hooks) npm package
 
+[![](https://i.imgur.com/3xau6hk.png)](https://drive.google.com/file/d/1q3y5JkCIbhdkzgZPZdOx3xqNoMaLEqdF/view?usp=sharing)
+
+[This video](https://youtu.be/saeeys0AWUk) guid through how to extract existing react project's hook and publish it onto npm, so it will be come available everywhere by installing the npm pacakge
+`yarn add` or `npm install`.
+
 ## How to use
 
 0. npm install package
