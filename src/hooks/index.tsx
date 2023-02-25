@@ -45,7 +45,7 @@ interface Props {
 }
 
 export const Web3ContextProvider: FC<Props> = ({ children }) => {
-  const [web3Data, setWeb3Data] = useState<IWeb3Data>({} as IWeb3Data);
+  const [web3Data, setWeb3Data] = useState<IWeb3Data>({ accounts: [], chainId: 1, web3: new Web3() });
   const [loading, setLoading] = useState<boolean>(false);
 
   useEffect(() => {

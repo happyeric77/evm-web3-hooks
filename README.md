@@ -32,3 +32,9 @@ const web3Context = useWeb3()
 ```
 
 3. The example [EVM Dapp boilerplate](https://github.com/happyeric77/evm-dapp-boilerplate-ts.git)
+
+# Release note
+
+## 0.1.0
+
+- Add default value for web3Data (default chain id = 1)
